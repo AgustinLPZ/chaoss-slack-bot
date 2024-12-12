@@ -126,7 +126,7 @@ app.message(/outreachy/i, async ({ message, say, logger }) => {
 });
 
 
-// Sends CHAOSS Meeting Notes Link
+// Sends CHAOSS Meeting Notes Link 
 const meetingNotesLink = process.env.MEETING_NOTES_LINK;
 
 app.message(/(meeting|meeting notes|notes)/i, async ({ message, say }) => {
